@@ -37,7 +37,7 @@ const RegistroUsuario = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(formData);
-        // Aquí iría la lógica para enviar los datos al servidor
+        // Aquí iría la lógica para enviar los datos al servidor pepepepe
     };
 
     return (
@@ -45,7 +45,7 @@ const RegistroUsuario = () => {
             <Card className="registro-card">
                 <div className="registro-header">
                     <img src="../../logo2.png" alt="Logo" className="registro-logo" />
-                    <h2 className="registro-title">Registro usuarios</h2>
+                    <h2 className="registro-title">Registro usuarioss</h2>
                 </div>
                 <form onSubmit={handleSubmit}>
                     <div className="p-fluid">
